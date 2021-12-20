@@ -33,7 +33,7 @@
     "desc": "<p>三维折线图。可以用于<a href=\"#grid3D\">三维直角坐标系 grid3D</a>。</p>\n<p><img width=\"600\" height=\"auto\" src=\"documents/asset/gl/img/line3D.png\"></p>\n"
   },
   "series-lines3D": {
-    "desc": "<p>三维的飞线图。跟二维的<a href=\"https://echarts.apache.org/zh/option.html#series-line\" target=\"_blank\">飞线图</a>一样用于表现起点终点的线数据。更多用在地理可视化上。</p>\n<p>下图是使用 <a href=\"#series-lines3D\">lines3D</a> 在 <a href=\"#globe\">globe</a> 上可视化飞机航班的一个例子。</p>\n<p><img width=\"700\" height=\"auto\" src=\"documents/asset/gl/img/globe-airline.png\"></p>\n"
+    "desc": "<p>三维的飞线图。跟二维的<a href=\"/echarts-website/zh/option.html#series-line\" target=\"_blank\">飞线图</a>一样用于表现起点终点的线数据。更多用在地理可视化上。</p>\n<p>下图是使用 <a href=\"#series-lines3D\">lines3D</a> 在 <a href=\"#globe\">globe</a> 上可视化飞机航班的一个例子。</p>\n<p><img width=\"700\" height=\"auto\" src=\"documents/asset/gl/img/globe-airline.png\"></p>\n"
   },
   "series-map3D": {
     "desc": "<p><strong>三维地图</strong></p>\n<p>三维地图主要用于地理区域数据的可视化，配合 <a href=\"http://echarts.baidu.com/option.html#visualMap\" target=\"_blank\">visualMap</a> 组件用于展示不同区域的人口分布密度等数据。</p>\n<p>相比于二维的地图，三维地图还能每个区域设置不同的高度，这个高度能够用来展示数据，也能够用来显示建筑数据中建筑的高度。</p>\n"

@@ -1,6 +1,6 @@
 window.__EC_DOC_option_gl_series_graphGL = {
   "name": {
-    "desc": "<p>系列名称，用于 <a href=\"https://echarts.apache.org/zh/option.html#tooltip\" target=\"_blank\">tooltip</a> 的显示，<a href=\"https://echarts.apache.org/zh/option.html#legend\" target=\"_blank\">legend</a> 的图例筛选，在 <code class=\"codespan\">setOption</code> 更新数据和配置项时用于指定对应的系列。</p>\n"
+    "desc": "<p>系列名称，用于 <a href=\"/echarts-website/zh/option.html#tooltip\" target=\"_blank\">tooltip</a> 的显示，<a href=\"/echarts-website/zh/option.html#legend\" target=\"_blank\">legend</a> 的图例筛选，在 <code class=\"codespan\">setOption</code> 更新数据和配置项时用于指定对应的系列。</p>\n"
   },
   "layout": {
     "desc": "<p>布局的算法，支持使用 gephi 的 <a href=\"https://github.com/gephi/gephi/wiki/Force-Atlas-2\" target=\"_blank\">forceAtlas2</a> 算法布局。</p>\n"

@@ -45,7 +45,7 @@
     "desc": "<p><code class=\"codespan\">label</code> 描述了每个扇形块中，文本标签的样式。</p>\n<p><strong>优先级：<a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>。</strong></p>\n<p>图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称等，<code class=\"codespan\">label</code>选项在 ECharts 2.x 中放置于<code class=\"codespan\">itemStyle</code>下，在 ECharts 3 中为了让整个配置项结构更扁平合理，<code class=\"codespan\">label</code> 被拿出来跟 <code class=\"codespan\">itemStyle</code> 平级，并且跟 <code class=\"codespan\">itemStyle</code> 一样拥有 <code class=\"codespan\">emphasis</code> 状态。</p>\n"
   },
   "data.label.rotate": {
-    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -53,7 +53,7 @@
     }
   },
   "data.label.align": {
-    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -77,14 +77,14 @@
     }
   },
   "data.label.position": {
-    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "data.label.distance": {
-    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -537,7 +537,7 @@
     "desc": "<p><code class=\"codespan\">label</code> 描述了每个扇形块中，文本标签的样式。</p>\n<p><strong>优先级：<a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>。</strong></p>\n<p>图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称等，<code class=\"codespan\">label</code>选项在 ECharts 2.x 中放置于<code class=\"codespan\">itemStyle</code>下，在 ECharts 3 中为了让整个配置项结构更扁平合理，<code class=\"codespan\">label</code> 被拿出来跟 <code class=\"codespan\">itemStyle</code> 平级，并且跟 <code class=\"codespan\">itemStyle</code> 一样拥有 <code class=\"codespan\">emphasis</code> 状态。</p>\n"
   },
   "data.emphasis.label.rotate": {
-    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -545,7 +545,7 @@
     }
   },
   "data.emphasis.label.align": {
-    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -569,14 +569,14 @@
     }
   },
   "data.emphasis.label.position": {
-    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "data.emphasis.label.distance": {
-    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -1029,7 +1029,7 @@
     "desc": "<p><code class=\"codespan\">label</code> 描述了每个扇形块中，文本标签的样式。</p>\n<p><strong>优先级：<a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>。</strong></p>\n<p>图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称等，<code class=\"codespan\">label</code>选项在 ECharts 2.x 中放置于<code class=\"codespan\">itemStyle</code>下，在 ECharts 3 中为了让整个配置项结构更扁平合理，<code class=\"codespan\">label</code> 被拿出来跟 <code class=\"codespan\">itemStyle</code> 平级，并且跟 <code class=\"codespan\">itemStyle</code> 一样拥有 <code class=\"codespan\">emphasis</code> 状态。</p>\n"
   },
   "data.highlight.label.rotate": {
-    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -1037,7 +1037,7 @@
     }
   },
   "data.highlight.label.align": {
-    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -1061,14 +1061,14 @@
     }
   },
   "data.highlight.label.position": {
-    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "data.highlight.label.distance": {
-    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -1521,7 +1521,7 @@
     "desc": "<p><code class=\"codespan\">label</code> 描述了每个扇形块中，文本标签的样式。</p>\n<p><strong>优先级：<a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>。</strong></p>\n<p>图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称等，<code class=\"codespan\">label</code>选项在 ECharts 2.x 中放置于<code class=\"codespan\">itemStyle</code>下，在 ECharts 3 中为了让整个配置项结构更扁平合理，<code class=\"codespan\">label</code> 被拿出来跟 <code class=\"codespan\">itemStyle</code> 平级，并且跟 <code class=\"codespan\">itemStyle</code> 一样拥有 <code class=\"codespan\">emphasis</code> 状态。</p>\n"
   },
   "data.downplay.label.rotate": {
-    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -1529,7 +1529,7 @@
     }
   },
   "data.downplay.label.align": {
-    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -1553,14 +1553,14 @@
     }
   },
   "data.downplay.label.position": {
-    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "data.downplay.label.distance": {
-    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -2013,7 +2013,7 @@
     "desc": "<p><code class=\"codespan\">label</code> 描述了每个扇形块中，文本标签的样式。</p>\n<p><strong>优先级：<a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>。</strong></p>\n<p>图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称等，<code class=\"codespan\">label</code>选项在 ECharts 2.x 中放置于<code class=\"codespan\">itemStyle</code>下，在 ECharts 3 中为了让整个配置项结构更扁平合理，<code class=\"codespan\">label</code> 被拿出来跟 <code class=\"codespan\">itemStyle</code> 平级，并且跟 <code class=\"codespan\">itemStyle</code> 一样拥有 <code class=\"codespan\">emphasis</code> 状态。</p>\n"
   },
   "label.rotate": {
-    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -2021,7 +2021,7 @@
     }
   },
   "label.align": {
-    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -2045,14 +2045,14 @@
     }
   },
   "label.position": {
-    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "label.distance": {
-    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -2499,7 +2499,7 @@
     }
   },
   "highlightPolicy": {
-    "desc": "\n\n<p>当鼠标移动到一个扇形块时，可以高亮相关的扇形块。<strong>如果其值为 <code class=\"codespan\">&#39;descendant&#39;</code>，则会高亮该扇形块和后代元素，其他元素将被淡化（<em>downplay</em>，参见 <a href=\"#series-sunburst.itemStyle\">itemStyle</a>）；如果其值为 <code class=\"codespan\">&#39;ancestor&#39;</code>，则会高亮该扇形块和祖先元素；如果其值为 <code class=\"codespan\">&#39;self&#39;</code> 则只高亮自身；<code class=\"codespan\">&#39;none&#39;</code> 则不会淡化其他元素。</strong></p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-highlight-descendant&edit=1&reset=1\" width=\"700\" height=\"350\"><iframe />\n\n\n<p>上面的例子 <code class=\"codespan\">highlightPolicy</code> 是默认值 <code class=\"codespan\">&#39;descendant&#39;</code>，我们通过 <code class=\"codespan\">dispatchAction</code> 触发了旭日图中某个数据块的高亮操作（相当于将鼠标移动到下图中的 <code class=\"codespan\">target</code> 扇形块中）。目标扇形块将采用 <code class=\"codespan\">emphasis</code> 的样式（在本例中是为红色），和目标扇形块相关的扇形块（由 <code class=\"codespan\">highlightPolicy</code> 决定哪些扇形块是相关的）采用 <code class=\"codespan\">highlight</code> 的样式（橙色），其他扇形块采用 <code class=\"codespan\">downplay</code> 的样式（灰色）。而如果没有高亮对象，则所有扇形块都采用默认的样式。样式定义是类似这样的：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    color: &#39;yellow&#39;,\n    borderWidth: 2\n},\nemphasis: {\n    itemStyle: {\n        color: &#39;red&#39;\n    }\n},\nhighlight: {\n    itemStyle: {\n        color: &#39;orange&#39;\n    }\n},\ndownplay: {\n    itemStyle: {\n        color: &#39;#ccc&#39;\n    }\n}\n</code></pre>\n<p>而如果将 <code class=\"codespan\">highlightPolicy</code> 设为 <code class=\"codespan\">&#39;ancestor&#39;</code>，则会得到这样的效果：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-highlight-ancestor&edit=1&reset=1\" width=\"700\" height=\"350\"><iframe />\n\n\n\n",
+    "desc": "\n\n<p>当鼠标移动到一个扇形块时，可以高亮相关的扇形块。<strong>如果其值为 <code class=\"codespan\">&#39;descendant&#39;</code>，则会高亮该扇形块和后代元素，其他元素将被淡化（<em>downplay</em>，参见 <a href=\"#series-sunburst.itemStyle\">itemStyle</a>）；如果其值为 <code class=\"codespan\">&#39;ancestor&#39;</code>，则会高亮该扇形块和祖先元素；如果其值为 <code class=\"codespan\">&#39;self&#39;</code> 则只高亮自身；<code class=\"codespan\">&#39;none&#39;</code> 则不会淡化其他元素。</strong></p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-highlight-descendant&edit=1&reset=1\" width=\"700\" height=\"350\"><iframe />\n\n\n<p>上面的例子 <code class=\"codespan\">highlightPolicy</code> 是默认值 <code class=\"codespan\">&#39;descendant&#39;</code>，我们通过 <code class=\"codespan\">dispatchAction</code> 触发了旭日图中某个数据块的高亮操作（相当于将鼠标移动到下图中的 <code class=\"codespan\">target</code> 扇形块中）。目标扇形块将采用 <code class=\"codespan\">emphasis</code> 的样式（在本例中是为红色），和目标扇形块相关的扇形块（由 <code class=\"codespan\">highlightPolicy</code> 决定哪些扇形块是相关的）采用 <code class=\"codespan\">highlight</code> 的样式（橙色），其他扇形块采用 <code class=\"codespan\">downplay</code> 的样式（灰色）。而如果没有高亮对象，则所有扇形块都采用默认的样式。样式定义是类似这样的：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    color: &#39;yellow&#39;,\n    borderWidth: 2\n},\nemphasis: {\n    itemStyle: {\n        color: &#39;red&#39;\n    }\n},\nhighlight: {\n    itemStyle: {\n        color: &#39;orange&#39;\n    }\n},\ndownplay: {\n    itemStyle: {\n        color: &#39;#ccc&#39;\n    }\n}\n</code></pre>\n<p>而如果将 <code class=\"codespan\">highlightPolicy</code> 设为 <code class=\"codespan\">&#39;ancestor&#39;</code>，则会得到这样的效果：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-highlight-ancestor&edit=1&reset=1\" width=\"700\" height=\"350\"><iframe />\n\n\n\n",
     "uiControl": {
       "type": "enum",
       "default": "descendant",
@@ -2535,7 +2535,7 @@
     "desc": "<p><code class=\"codespan\">label</code> 描述了每个扇形块中，文本标签的样式。</p>\n<p><strong>优先级：<a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>。</strong></p>\n<p>图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称等，<code class=\"codespan\">label</code>选项在 ECharts 2.x 中放置于<code class=\"codespan\">itemStyle</code>下，在 ECharts 3 中为了让整个配置项结构更扁平合理，<code class=\"codespan\">label</code> 被拿出来跟 <code class=\"codespan\">itemStyle</code> 平级，并且跟 <code class=\"codespan\">itemStyle</code> 一样拥有 <code class=\"codespan\">emphasis</code> 状态。</p>\n"
   },
   "emphasis.label.rotate": {
-    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -2543,7 +2543,7 @@
     }
   },
   "emphasis.label.align": {
-    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -2567,14 +2567,14 @@
     }
   },
   "emphasis.label.position": {
-    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "emphasis.label.distance": {
-    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -3027,7 +3027,7 @@
     "desc": "<p><code class=\"codespan\">label</code> 描述了每个扇形块中，文本标签的样式。</p>\n<p><strong>优先级：<a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>。</strong></p>\n<p>图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称等，<code class=\"codespan\">label</code>选项在 ECharts 2.x 中放置于<code class=\"codespan\">itemStyle</code>下，在 ECharts 3 中为了让整个配置项结构更扁平合理，<code class=\"codespan\">label</code> 被拿出来跟 <code class=\"codespan\">itemStyle</code> 平级，并且跟 <code class=\"codespan\">itemStyle</code> 一样拥有 <code class=\"codespan\">emphasis</code> 状态。</p>\n"
   },
   "highlight.label.rotate": {
-    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -3035,7 +3035,7 @@
     }
   },
   "highlight.label.align": {
-    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -3059,14 +3059,14 @@
     }
   },
   "highlight.label.position": {
-    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "highlight.label.distance": {
-    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -3519,7 +3519,7 @@
     "desc": "<p><code class=\"codespan\">label</code> 描述了每个扇形块中，文本标签的样式。</p>\n<p><strong>优先级：<a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>。</strong></p>\n<p>图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称等，<code class=\"codespan\">label</code>选项在 ECharts 2.x 中放置于<code class=\"codespan\">itemStyle</code>下，在 ECharts 3 中为了让整个配置项结构更扁平合理，<code class=\"codespan\">label</code> 被拿出来跟 <code class=\"codespan\">itemStyle</code> 平级，并且跟 <code class=\"codespan\">itemStyle</code> 一样拥有 <code class=\"codespan\">emphasis</code> 状态。</p>\n"
   },
   "downplay.label.rotate": {
-    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -3527,7 +3527,7 @@
     }
   },
   "downplay.label.align": {
-    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -3551,14 +3551,14 @@
     }
   },
   "downplay.label.position": {
-    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "downplay.label.distance": {
-    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -4011,7 +4011,7 @@
     "desc": "<p><code class=\"codespan\">label</code> 描述了每个扇形块中，文本标签的样式。</p>\n<p><strong>优先级：<a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>。</strong></p>\n<p>图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称等，<code class=\"codespan\">label</code>选项在 ECharts 2.x 中放置于<code class=\"codespan\">itemStyle</code>下，在 ECharts 3 中为了让整个配置项结构更扁平合理，<code class=\"codespan\">label</code> 被拿出来跟 <code class=\"codespan\">itemStyle</code> 平级，并且跟 <code class=\"codespan\">itemStyle</code> 一样拥有 <code class=\"codespan\">emphasis</code> 状态。</p>\n"
   },
   "levels.label.rotate": {
-    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -4019,7 +4019,7 @@
     }
   },
   "levels.label.align": {
-    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -4043,14 +4043,14 @@
     }
   },
   "levels.label.position": {
-    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "levels.label.distance": {
-    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -4503,7 +4503,7 @@
     "desc": "<p><code class=\"codespan\">label</code> 描述了每个扇形块中，文本标签的样式。</p>\n<p><strong>优先级：<a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>。</strong></p>\n<p>图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称等，<code class=\"codespan\">label</code>选项在 ECharts 2.x 中放置于<code class=\"codespan\">itemStyle</code>下，在 ECharts 3 中为了让整个配置项结构更扁平合理，<code class=\"codespan\">label</code> 被拿出来跟 <code class=\"codespan\">itemStyle</code> 平级，并且跟 <code class=\"codespan\">itemStyle</code> 一样拥有 <code class=\"codespan\">emphasis</code> 状态。</p>\n"
   },
   "levels.emphasis.label.rotate": {
-    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -4511,7 +4511,7 @@
     }
   },
   "levels.emphasis.label.align": {
-    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -4535,14 +4535,14 @@
     }
   },
   "levels.emphasis.label.position": {
-    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "levels.emphasis.label.distance": {
-    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -4995,7 +4995,7 @@
     "desc": "<p><code class=\"codespan\">label</code> 描述了每个扇形块中，文本标签的样式。</p>\n<p><strong>优先级：<a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>。</strong></p>\n<p>图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称等，<code class=\"codespan\">label</code>选项在 ECharts 2.x 中放置于<code class=\"codespan\">itemStyle</code>下，在 ECharts 3 中为了让整个配置项结构更扁平合理，<code class=\"codespan\">label</code> 被拿出来跟 <code class=\"codespan\">itemStyle</code> 平级，并且跟 <code class=\"codespan\">itemStyle</code> 一样拥有 <code class=\"codespan\">emphasis</code> 状态。</p>\n"
   },
   "levels.highlight.label.rotate": {
-    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -5003,7 +5003,7 @@
     }
   },
   "levels.highlight.label.align": {
-    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -5027,14 +5027,14 @@
     }
   },
   "levels.highlight.label.position": {
-    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "levels.highlight.label.distance": {
-    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -5487,7 +5487,7 @@
     "desc": "<p><code class=\"codespan\">label</code> 描述了每个扇形块中，文本标签的样式。</p>\n<p><strong>优先级：<a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>。</strong></p>\n<p>图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称等，<code class=\"codespan\">label</code>选项在 ECharts 2.x 中放置于<code class=\"codespan\">itemStyle</code>下，在 ECharts 3 中为了让整个配置项结构更扁平合理，<code class=\"codespan\">label</code> 被拿出来跟 <code class=\"codespan\">itemStyle</code> 平级，并且跟 <code class=\"codespan\">itemStyle</code> 一样拥有 <code class=\"codespan\">emphasis</code> 状态。</p>\n"
   },
   "levels.downplay.label.rotate": {
-    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>如果是 <code class=\"codespan\">number</code> 类型，则表示标签的旋转角，从 -90 度到 90 度，正值是逆时针。</p>\n<p>除此之外，还可以是字符串 <code class=\"codespan\">&#39;radial&#39;</code> 表示径向旋转、<code class=\"codespan\">&#39;tangential&#39;</code> 表示切向旋转。</p>\n<p>默认径向旋转，如果不需要文字旋转，可以将其设为 <code class=\"codespan\">0</code>。</p>\n<p>下面的例子展示了不同的 <code class=\"codespan\">rotate</code> 设置方法：</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -5495,7 +5495,7 @@
     }
   },
   "levels.downplay.label.align": {
-    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "\n\n<p>文字对齐方式，可取值为：<code class=\"codespan\">&#39;left&#39;</code>、 <code class=\"codespan\">&#39;center&#39;</code>、 <code class=\"codespan\">&#39;right&#39;</code>。注意，<code class=\"codespan\">&#39;left&#39;</code> 是指靠近内圈，而 <code class=\"codespan\">&#39;right&#39;</code> 是指靠近外圈。</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -5519,14 +5519,14 @@
     }
   },
   "levels.downplay.label.position": {
-    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n\n<p>标签的位置。</p>\n<ul>\n<li><p>可以通过内置的语义声明位置：</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  position: &#39;top&#39;\n</code></pre>\n<p>  支持：<code class=\"codespan\">top</code> / <code class=\"codespan\">left</code> / <code class=\"codespan\">right</code> / <code class=\"codespan\">bottom</code> / <code class=\"codespan\">inside</code> / <code class=\"codespan\">insideLeft</code> / <code class=\"codespan\">insideRight</code> / <code class=\"codespan\">insideTop</code> / <code class=\"codespan\">insideBottom</code> / <code class=\"codespan\">insideTopLeft</code> / <code class=\"codespan\">insideBottomLeft</code> / <code class=\"codespan\">insideTopRight</code> / <code class=\"codespan\">insideBottomRight</code></p>\n</li>\n<li><p>也可以用一个数组表示相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。</p>\n<p>  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n</ul>\n<p>参见：<a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "levels.downplay.label.distance": {
-    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
+    "desc": "\n\n<p>距离图形元素的距离。当 position 为字符描述值（如 <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>）时候有效。</p>\n<p>参见：<a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>。</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -5994,7 +5994,7 @@
     }
   },
   "animationEasing": {
-    "desc": "\n\n<p>初始动画的缓动效果。不同的缓动效果可以参考 <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=line-easing\" target=\"_blank\">缓动示例</a>。</p>\n",
+    "desc": "\n\n<p>初始动画的缓动效果。不同的缓动效果可以参考 <a href=\"/echarts-website/examples/zh/editor.html?c=line-easing\" target=\"_blank\">缓动示例</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "linear,quadraticIn,quadraticOut,quadraticInOut,cubicIn,cubicOut,cubicInOut,quarticIn,quarticOut,quarticInOut,quinticIn,quinticOut,quinticInOut,sinusoidalIn,sinusoidalOut,sinusoidalInOut,exponentialIn,exponentialOut,exponentialInOut,circularIn,circularOut,circularInOut,elasticIn,elasticOut,elasticInOut,backIn,backOut,backInOut,bounceIn,bounceOut,bounceInOut",
@@ -6002,7 +6002,7 @@
     }
   },
   "animationDelay": {
-    "desc": "<p>初始动画的延迟，支持回调函数，可以通过每个数据返回不同的 delay 时间实现更戏剧的初始动画效果。</p>\n<p>如下示例：</p>\n<pre><code class=\"lang-js\">animationDelay: function (idx) {\n    // 越往后的数据延迟越大\n    return idx * 100;\n}\n</code></pre>\n<p>也可以看<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=bar-animation-delay\" target=\"_blank\">该示例</a></p>\n"
+    "desc": "<p>初始动画的延迟，支持回调函数，可以通过每个数据返回不同的 delay 时间实现更戏剧的初始动画效果。</p>\n<p>如下示例：</p>\n<pre><code class=\"lang-js\">animationDelay: function (idx) {\n    // 越往后的数据延迟越大\n    return idx * 100;\n}\n</code></pre>\n<p>也可以看<a href=\"/echarts-website/examples/zh/editor.html?c=bar-animation-delay\" target=\"_blank\">该示例</a></p>\n"
   },
   "animationDurationUpdate": {
     "desc": "\n\n<p>数据更新动画的时长。</p>\n<p>支持回调函数，可以通过每个数据返回不同的时长实现更戏剧的更新动画效果：</p>\n<pre><code class=\"lang-js\">animationDurationUpdate: function (idx) {\n    // 越往后的数据时长越大\n    return idx * 100;\n}\n</code></pre>\n",
@@ -6021,6 +6021,6 @@
     }
   },
   "animationDelayUpdate": {
-    "desc": "<p>数据更新动画的延迟，支持回调函数，可以通过每个数据返回不同的 delay 时间实现更戏剧的更新动画效果。</p>\n<p>如下示例：</p>\n<pre><code class=\"lang-js\">animationDelayUpdate: function (idx) {\n    // 越往后的数据延迟越大\n    return idx * 100;\n}\n</code></pre>\n<p>也可以看<a href=\"https://echarts.apache.org/examples/zh/editor.html?c=bar-animation-delay\" target=\"_blank\">该示例</a></p>\n"
+    "desc": "<p>数据更新动画的延迟，支持回调函数，可以通过每个数据返回不同的 delay 时间实现更戏剧的更新动画效果。</p>\n<p>如下示例：</p>\n<pre><code class=\"lang-js\">animationDelayUpdate: function (idx) {\n    // 越往后的数据延迟越大\n    return idx * 100;\n}\n</code></pre>\n<p>也可以看<a href=\"/echarts-website/examples/zh/editor.html?c=bar-animation-delay\" target=\"_blank\">该示例</a></p>\n"
   }
 }

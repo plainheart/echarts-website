@@ -768,7 +768,7 @@ window.__EC_DOC_option_timeline = {
     }
   },
   "checkpointStyle.animationEasing": {
-    "desc": "\n\n<p><code class=\"codespan\">timeline</code>组件中『当前项』（<code class=\"codespan\">checkpoint</code>）的动画的缓动效果。不同的缓动效果可以参考 <a href=\"https://echarts.apache.org/examples/zh/view.html?c=line-easing\" target=\"_blank\">缓动示例</a>。</p>\n",
+    "desc": "\n\n<p><code class=\"codespan\">timeline</code>组件中『当前项』（<code class=\"codespan\">checkpoint</code>）的动画的缓动效果。不同的缓动效果可以参考 <a href=\"/echarts-website/examples/zh/view.html?c=line-easing\" target=\"_blank\">缓动示例</a>。</p>\n",
     "uiControl": {
       "type": "enum",
       "default": "quinticInOut",

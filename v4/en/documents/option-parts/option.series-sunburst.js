@@ -45,7 +45,7 @@ window.__EC_DOC_option_series_sunburst = {
     "desc": "<p><code class=\"codespan\">label</code> sets the text style for every sectors.</p>\n<p><strong>Priority: <a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>.</strong></p>\n<p>Text label of , to explain some data information about graphic item like value, name and so on. <code class=\"codespan\">label</code> is placed under <code class=\"codespan\">itemStyle</code> in ECharts 2.x. In ECharts 3, to make the configuration structure flatter, <code class=\"codespan\">label</code>is taken to be at the same level with <code class=\"codespan\">itemStyle</code>, and has <code class=\"codespan\">emphasis</code> as <code class=\"codespan\">itemStyle</code> does.</p>\n"
   },
   "data.label.rotate": {
-    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -53,7 +53,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "data.label.align": {
-    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -77,14 +77,14 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "data.label.position": {
-    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "data.label.distance": {
-    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -537,7 +537,7 @@ window.__EC_DOC_option_series_sunburst = {
     "desc": "<p><code class=\"codespan\">label</code> sets the text style for every sectors.</p>\n<p><strong>Priority: <a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>.</strong></p>\n<p>Text label of , to explain some data information about graphic item like value, name and so on. <code class=\"codespan\">label</code> is placed under <code class=\"codespan\">itemStyle</code> in ECharts 2.x. In ECharts 3, to make the configuration structure flatter, <code class=\"codespan\">label</code>is taken to be at the same level with <code class=\"codespan\">itemStyle</code>, and has <code class=\"codespan\">emphasis</code> as <code class=\"codespan\">itemStyle</code> does.</p>\n"
   },
   "data.emphasis.label.rotate": {
-    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -545,7 +545,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "data.emphasis.label.align": {
-    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -569,14 +569,14 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "data.emphasis.label.position": {
-    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "data.emphasis.label.distance": {
-    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -1029,7 +1029,7 @@ window.__EC_DOC_option_series_sunburst = {
     "desc": "<p><code class=\"codespan\">label</code> sets the text style for every sectors.</p>\n<p><strong>Priority: <a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>.</strong></p>\n<p>Text label of , to explain some data information about graphic item like value, name and so on. <code class=\"codespan\">label</code> is placed under <code class=\"codespan\">itemStyle</code> in ECharts 2.x. In ECharts 3, to make the configuration structure flatter, <code class=\"codespan\">label</code>is taken to be at the same level with <code class=\"codespan\">itemStyle</code>, and has <code class=\"codespan\">emphasis</code> as <code class=\"codespan\">itemStyle</code> does.</p>\n"
   },
   "data.highlight.label.rotate": {
-    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -1037,7 +1037,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "data.highlight.label.align": {
-    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -1061,14 +1061,14 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "data.highlight.label.position": {
-    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "data.highlight.label.distance": {
-    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -1521,7 +1521,7 @@ window.__EC_DOC_option_series_sunburst = {
     "desc": "<p><code class=\"codespan\">label</code> sets the text style for every sectors.</p>\n<p><strong>Priority: <a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>.</strong></p>\n<p>Text label of , to explain some data information about graphic item like value, name and so on. <code class=\"codespan\">label</code> is placed under <code class=\"codespan\">itemStyle</code> in ECharts 2.x. In ECharts 3, to make the configuration structure flatter, <code class=\"codespan\">label</code>is taken to be at the same level with <code class=\"codespan\">itemStyle</code>, and has <code class=\"codespan\">emphasis</code> as <code class=\"codespan\">itemStyle</code> does.</p>\n"
   },
   "data.downplay.label.rotate": {
-    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -1529,7 +1529,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "data.downplay.label.align": {
-    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -1553,14 +1553,14 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "data.downplay.label.position": {
-    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "data.downplay.label.distance": {
-    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -2013,7 +2013,7 @@ window.__EC_DOC_option_series_sunburst = {
     "desc": "<p><code class=\"codespan\">label</code> sets the text style for every sectors.</p>\n<p><strong>Priority: <a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>.</strong></p>\n<p>Text label of , to explain some data information about graphic item like value, name and so on. <code class=\"codespan\">label</code> is placed under <code class=\"codespan\">itemStyle</code> in ECharts 2.x. In ECharts 3, to make the configuration structure flatter, <code class=\"codespan\">label</code>is taken to be at the same level with <code class=\"codespan\">itemStyle</code>, and has <code class=\"codespan\">emphasis</code> as <code class=\"codespan\">itemStyle</code> does.</p>\n"
   },
   "label.rotate": {
-    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -2021,7 +2021,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "label.align": {
-    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -2045,14 +2045,14 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "label.position": {
-    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "label.distance": {
-    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -2499,7 +2499,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "highlightPolicy": {
-    "desc": "<p>When mouse hovers a sector, the sector is emphasized. <strong>If <code class=\"codespan\">highlightPolicy</code> is set to be <code class=\"codespan\">&#39;descendant&#39;</code>, then the sector and its descendant will be <em>highlighted</em>, and others will be <em>downplayed</em>. If <code class=\"codespan\">highlightPolicy</code> is <code class=\"codespan\">&#39;ancestor&#39;</code>, then the sector and its ancestors will be highlighted. If it is set to be <code class=\"codespan\">&#39;self&#39;</code>, then the sector will be highlighted and others downplayed. If it is set to be <code class=\"codespan\">&#39;none&#39;</code>, then others will not be downplayed.</strong></p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-highlight-descendant&edit=1&reset=1\" width=\"700\" height=\"350\"><iframe />\n\n\n<p>The <code class=\"codespan\">highlightPolicy</code> value above is the default value <code class=\"codespan\">&#39;descendant&#39;</code>. We use <code class=\"codespan\">dispatchAction</code> to highlight certain sector. Target sector will use the style of <code class=\"codespan\">emphasis</code>, and related sectors decided by <code class=\"codespan\">highlightPolicy</code> uses the style of <code class=\"codespan\">highlight</code>, and others use <code class=\"codespan\">downplay</code>.</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    color: &#39;yellow&#39;,\n    borderWidth: 2,\n    emphasis: {\n        color: &#39;red&#39;\n    },\n    highlight: {\n        color: &#39;orange&#39;\n    },\n    downplay: {\n        color: &#39;#ccc&#39;\n    }\n}\n</code></pre>\n<p>If <code class=\"codespan\">highlightPolicy</code> is set to be <code class=\"codespan\">&#39;ancestor&#39;</code>, then the result looks like:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-highlight-ancestor&edit=1&reset=1\" width=\"700\" height=\"350\"><iframe />\n\n\n\n",
+    "desc": "<p>When mouse hovers a sector, the sector is emphasized. <strong>If <code class=\"codespan\">highlightPolicy</code> is set to be <code class=\"codespan\">&#39;descendant&#39;</code>, then the sector and its descendant will be <em>highlighted</em>, and others will be <em>downplayed</em>. If <code class=\"codespan\">highlightPolicy</code> is <code class=\"codespan\">&#39;ancestor&#39;</code>, then the sector and its ancestors will be highlighted. If it is set to be <code class=\"codespan\">&#39;self&#39;</code>, then the sector will be highlighted and others downplayed. If it is set to be <code class=\"codespan\">&#39;none&#39;</code>, then others will not be downplayed.</strong></p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-highlight-descendant&edit=1&reset=1\" width=\"700\" height=\"350\"><iframe />\n\n\n<p>The <code class=\"codespan\">highlightPolicy</code> value above is the default value <code class=\"codespan\">&#39;descendant&#39;</code>. We use <code class=\"codespan\">dispatchAction</code> to highlight certain sector. Target sector will use the style of <code class=\"codespan\">emphasis</code>, and related sectors decided by <code class=\"codespan\">highlightPolicy</code> uses the style of <code class=\"codespan\">highlight</code>, and others use <code class=\"codespan\">downplay</code>.</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    color: &#39;yellow&#39;,\n    borderWidth: 2,\n    emphasis: {\n        color: &#39;red&#39;\n    },\n    highlight: {\n        color: &#39;orange&#39;\n    },\n    downplay: {\n        color: &#39;#ccc&#39;\n    }\n}\n</code></pre>\n<p>If <code class=\"codespan\">highlightPolicy</code> is set to be <code class=\"codespan\">&#39;ancestor&#39;</code>, then the result looks like:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-highlight-ancestor&edit=1&reset=1\" width=\"700\" height=\"350\"><iframe />\n\n\n\n",
     "uiControl": {
       "type": "enum",
       "default": "descendant",
@@ -2535,7 +2535,7 @@ window.__EC_DOC_option_series_sunburst = {
     "desc": "<p><code class=\"codespan\">label</code> sets the text style for every sectors.</p>\n<p><strong>Priority: <a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>.</strong></p>\n<p>Text label of , to explain some data information about graphic item like value, name and so on. <code class=\"codespan\">label</code> is placed under <code class=\"codespan\">itemStyle</code> in ECharts 2.x. In ECharts 3, to make the configuration structure flatter, <code class=\"codespan\">label</code>is taken to be at the same level with <code class=\"codespan\">itemStyle</code>, and has <code class=\"codespan\">emphasis</code> as <code class=\"codespan\">itemStyle</code> does.</p>\n"
   },
   "emphasis.label.rotate": {
-    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -2543,7 +2543,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "emphasis.label.align": {
-    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -2567,14 +2567,14 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "emphasis.label.position": {
-    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "emphasis.label.distance": {
-    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -3027,7 +3027,7 @@ window.__EC_DOC_option_series_sunburst = {
     "desc": "<p><code class=\"codespan\">label</code> sets the text style for every sectors.</p>\n<p><strong>Priority: <a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>.</strong></p>\n<p>Text label of , to explain some data information about graphic item like value, name and so on. <code class=\"codespan\">label</code> is placed under <code class=\"codespan\">itemStyle</code> in ECharts 2.x. In ECharts 3, to make the configuration structure flatter, <code class=\"codespan\">label</code>is taken to be at the same level with <code class=\"codespan\">itemStyle</code>, and has <code class=\"codespan\">emphasis</code> as <code class=\"codespan\">itemStyle</code> does.</p>\n"
   },
   "highlight.label.rotate": {
-    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -3035,7 +3035,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "highlight.label.align": {
-    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -3059,14 +3059,14 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "highlight.label.position": {
-    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "highlight.label.distance": {
-    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -3519,7 +3519,7 @@ window.__EC_DOC_option_series_sunburst = {
     "desc": "<p><code class=\"codespan\">label</code> sets the text style for every sectors.</p>\n<p><strong>Priority: <a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>.</strong></p>\n<p>Text label of , to explain some data information about graphic item like value, name and so on. <code class=\"codespan\">label</code> is placed under <code class=\"codespan\">itemStyle</code> in ECharts 2.x. In ECharts 3, to make the configuration structure flatter, <code class=\"codespan\">label</code>is taken to be at the same level with <code class=\"codespan\">itemStyle</code>, and has <code class=\"codespan\">emphasis</code> as <code class=\"codespan\">itemStyle</code> does.</p>\n"
   },
   "downplay.label.rotate": {
-    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -3527,7 +3527,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "downplay.label.align": {
-    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -3551,14 +3551,14 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "downplay.label.position": {
-    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "downplay.label.distance": {
-    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -4011,7 +4011,7 @@ window.__EC_DOC_option_series_sunburst = {
     "desc": "<p><code class=\"codespan\">label</code> sets the text style for every sectors.</p>\n<p><strong>Priority: <a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>.</strong></p>\n<p>Text label of , to explain some data information about graphic item like value, name and so on. <code class=\"codespan\">label</code> is placed under <code class=\"codespan\">itemStyle</code> in ECharts 2.x. In ECharts 3, to make the configuration structure flatter, <code class=\"codespan\">label</code>is taken to be at the same level with <code class=\"codespan\">itemStyle</code>, and has <code class=\"codespan\">emphasis</code> as <code class=\"codespan\">itemStyle</code> does.</p>\n"
   },
   "levels.label.rotate": {
-    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -4019,7 +4019,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "levels.label.align": {
-    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -4043,14 +4043,14 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "levels.label.position": {
-    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "levels.label.distance": {
-    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -4503,7 +4503,7 @@ window.__EC_DOC_option_series_sunburst = {
     "desc": "<p><code class=\"codespan\">label</code> sets the text style for every sectors.</p>\n<p><strong>Priority: <a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>.</strong></p>\n<p>Text label of , to explain some data information about graphic item like value, name and so on. <code class=\"codespan\">label</code> is placed under <code class=\"codespan\">itemStyle</code> in ECharts 2.x. In ECharts 3, to make the configuration structure flatter, <code class=\"codespan\">label</code>is taken to be at the same level with <code class=\"codespan\">itemStyle</code>, and has <code class=\"codespan\">emphasis</code> as <code class=\"codespan\">itemStyle</code> does.</p>\n"
   },
   "levels.emphasis.label.rotate": {
-    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -4511,7 +4511,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "levels.emphasis.label.align": {
-    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -4535,14 +4535,14 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "levels.emphasis.label.position": {
-    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "levels.emphasis.label.distance": {
-    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -4995,7 +4995,7 @@ window.__EC_DOC_option_series_sunburst = {
     "desc": "<p><code class=\"codespan\">label</code> sets the text style for every sectors.</p>\n<p><strong>Priority: <a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>.</strong></p>\n<p>Text label of , to explain some data information about graphic item like value, name and so on. <code class=\"codespan\">label</code> is placed under <code class=\"codespan\">itemStyle</code> in ECharts 2.x. In ECharts 3, to make the configuration structure flatter, <code class=\"codespan\">label</code>is taken to be at the same level with <code class=\"codespan\">itemStyle</code>, and has <code class=\"codespan\">emphasis</code> as <code class=\"codespan\">itemStyle</code> does.</p>\n"
   },
   "levels.highlight.label.rotate": {
-    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -5003,7 +5003,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "levels.highlight.label.align": {
-    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -5027,14 +5027,14 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "levels.highlight.label.position": {
-    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "levels.highlight.label.distance": {
-    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -5487,7 +5487,7 @@ window.__EC_DOC_option_series_sunburst = {
     "desc": "<p><code class=\"codespan\">label</code> sets the text style for every sectors.</p>\n<p><strong>Priority: <a href=\"#series-sunburst.data.label\">series.data.label</a> &gt; <a href=\"#series-sunburst.levels.label\">series.levels.label</a> &gt; <a href=\"#series-sunburst.label\">series.label</a>.</strong></p>\n<p>Text label of , to explain some data information about graphic item like value, name and so on. <code class=\"codespan\">label</code> is placed under <code class=\"codespan\">itemStyle</code> in ECharts 2.x. In ECharts 3, to make the configuration structure flatter, <code class=\"codespan\">label</code>is taken to be at the same level with <code class=\"codespan\">itemStyle</code>, and has <code class=\"codespan\">emphasis</code> as <code class=\"codespan\">itemStyle</code> does.</p>\n"
   },
   "levels.downplay.label.rotate": {
-    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>If it is <code class=\"codespan\">number</code> type, then is stands for rotation, from -90 degrees to 90 degrees, and positive values stand for counterclockwise.</p>\n<p>Besides, it can be string <code class=\"codespan\">&#39;radial&#39;</code>, standing for radial rotation; or <code class=\"codespan\">&#39;tangential&#39;</code>, standing for tangential rotation.</p>\n<p>By default, it is <code class=\"codespan\">&#39;radial&#39;</code>. If no rotation is wanted, it can be set to <code class=\"codespan\">0</code>.</p>\n<p>The following example shows different <code class=\"codespan\">rotate</code> settings:</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=sunburst-label-rotate&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "radial,tangential",
@@ -5495,7 +5495,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "levels.downplay.label.align": {
-    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
+    "desc": "<p>Align of text, which can be <code class=\"codespan\">&#39;left&#39;</code>, <code class=\"codespan\">&#39;center&#39;</code>, or <code class=\"codespan\">&#39;right&#39;</code>. Note that <code class=\"codespan\">&#39;left&#39;</code> stands for inner side, and <code class=\"codespan\">&#39;right&#39;</code> stands for outer side.</p>\n<iframe  data-src=\"/echarts-website/examples/zh/view.html?c=doc-example/sunburst-label-align&edit=1&reset=1\" width=\"700\" height=\"400\"><iframe />\n\n",
     "uiControl": {
       "type": "enum",
       "options": "left,center,right",
@@ -5519,14 +5519,14 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "levels.downplay.label.position": {
-    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Label position.</p>\n<p><strong>Followings are the options: </strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  Use relative percentage, or absolute pixel values to represent position of label relative to top-left corner of bounding box.\n  For example:</p>\n<pre><code class=\"lang-js\">  // Absolute pixel values\n  position: [10, 10],\n  // Relative percentage\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideTopLeft&#39;</li>\n<li>&#39;insideBottomLeft&#39;</li>\n<li>&#39;insideTopRight&#39;</li>\n<li>&#39;insideBottomRight&#39;</li>\n</ul>\n<p>See: <a href=\"/echarts-website/examples/zh/view.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "top,left,right,bottom,inside,insideLeft,insideRight,insideTop,insideBottom,insideTopLeft,insideBottomLeft,insideTopRight,insideBottomRight,outside"
     }
   },
   "levels.downplay.label.distance": {
-    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
+    "desc": "<p>Distance to the host graphic element. Works when position is string value (like <code class=\"codespan\">&#39;top&#39;</code>、<code class=\"codespan\">&#39;insideRight&#39;</code>).</p>\n<p>See: <a href=\"/echarts-website/examples/zh/editor.html?c=doc-example/label-position\" target=\"_blank\">label position</a>.</p>\n",
     "uiControl": {
       "type": "number",
       "default": "5",
@@ -5994,7 +5994,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "animationEasing": {
-    "desc": "<p>Easing method used for the first animation. Varied easing effects can be found at <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=line-easing\" target=\"_blank\">easing effect example</a>.</p>\n",
+    "desc": "<p>Easing method used for the first animation. Varied easing effects can be found at <a href=\"/echarts-website/examples/zh/editor.html?c=line-easing\" target=\"_blank\">easing effect example</a>.</p>\n",
     "uiControl": {
       "type": "enum",
       "options": "linear,quadraticIn,quadraticOut,quadraticInOut,cubicIn,cubicOut,cubicInOut,quarticIn,quarticOut,quarticInOut,quinticIn,quinticOut,quinticInOut,sinusoidalIn,sinusoidalOut,sinusoidalInOut,exponentialIn,exponentialOut,exponentialInOut,circularIn,circularOut,circularInOut,elasticIn,elasticOut,elasticInOut,backIn,backOut,backInOut,bounceIn,bounceOut,bounceInOut",
@@ -6002,7 +6002,7 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "animationDelay": {
-    "desc": "<p>Delay before updating the first animation, which supports callback function for different data to have different animation effect.</p>\n<p>For example:</p>\n<pre><code class=\"lang-js\">animationDelay: function (idx) {\n    // delay for later data is larger\n    return idx * 100;\n}\n</code></pre>\n<p>See <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=bar-animation-delay\" target=\"_blank\">this example</a> for more information.</p>\n"
+    "desc": "<p>Delay before updating the first animation, which supports callback function for different data to have different animation effect.</p>\n<p>For example:</p>\n<pre><code class=\"lang-js\">animationDelay: function (idx) {\n    // delay for later data is larger\n    return idx * 100;\n}\n</code></pre>\n<p>See <a href=\"/echarts-website/examples/zh/editor.html?c=bar-animation-delay\" target=\"_blank\">this example</a> for more information.</p>\n"
   },
   "animationDurationUpdate": {
     "desc": "<p>Time for animation to complete, which supports callback function for different data to have different animation effect:</p>\n<pre><code class=\"lang-js\">animationDurationUpdate: function (idx) {\n    // delay for later data is larger\n    return idx * 100;\n}\n</code></pre>\n",
@@ -6021,6 +6021,6 @@ window.__EC_DOC_option_series_sunburst = {
     }
   },
   "animationDelayUpdate": {
-    "desc": "<p>Delay before updating animation, which supports callback function for different data to have different animation effects.</p>\n<p>For example:</p>\n<pre><code class=\"lang-js\">animationDelayUpdate: function (idx) {\n    // delay for later data is larger\n    return idx * 100;\n}\n</code></pre>\n<p>See <a href=\"https://echarts.apache.org/examples/zh/editor.html?c=bar-animation-delay\" target=\"_blank\">this example</a> for more information.</p>\n"
+    "desc": "<p>Delay before updating animation, which supports callback function for different data to have different animation effects.</p>\n<p>For example:</p>\n<pre><code class=\"lang-js\">animationDelayUpdate: function (idx) {\n    // delay for later data is larger\n    return idx * 100;\n}\n</code></pre>\n<p>See <a href=\"/echarts-website/examples/zh/editor.html?c=bar-animation-delay\" target=\"_blank\">this example</a> for more information.</p>\n"
   }
 }

@@ -1,6 +1,6 @@
 window.__EC_DOC_option_gl_series_surface = {
   "name": {
-    "desc": "<p>Series name used for displaying in <a href=\"https://echarts.apache.org/zh/option.html#tooltip\" target=\"_blank\">tooltip</a> and filtering with <a href=\"https://echarts.apache.org/zh/option.html#legend\" target=\"_blank\">legend</a>, or updating data and configuration with <code class=\"codespan\">setOption</code>.</p>\n"
+    "desc": "<p>Series name used for displaying in <a href=\"/echarts-website/zh/option.html#tooltip\" target=\"_blank\">tooltip</a> and filtering with <a href=\"/echarts-website/zh/option.html#legend\" target=\"_blank\">legend</a>, or updating data and configuration with <code class=\"codespan\">setOption</code>.</p>\n"
   },
   "coordinateSystem": {
     "desc": "<p>The coordinate used in the series, whose options are:</p>\n<ul>\n<li><p><code class=\"codespan\">&#39;cartesian3D&#39;</code></p>\n<p>  Use a 3D rectangular coordinate (also known as Cartesian coordinate), with <a href=\"#series-.xAxisIndex\">xAxisIndex</a> and <a href=\"#series-.yAxisIndex\">yAxisIndex</a> to assign the corresponding axis component.</p>\n</li>\n</ul>\n"

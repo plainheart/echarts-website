@@ -1,6 +1,6 @@
 window.__EC_DOC_option_gl_series_lines3D = {
   "name": {
-    "desc": "<p>系列名称，用于 <a href=\"https://echarts.apache.org/zh/option.html#tooltip\" target=\"_blank\">tooltip</a> 的显示，<a href=\"https://echarts.apache.org/zh/option.html#legend\" target=\"_blank\">legend</a> 的图例筛选，在 <code class=\"codespan\">setOption</code> 更新数据和配置项时用于指定对应的系列。</p>\n"
+    "desc": "<p>系列名称，用于 <a href=\"/echarts-website/zh/option.html#tooltip\" target=\"_blank\">tooltip</a> 的显示，<a href=\"/echarts-website/zh/option.html#legend\" target=\"_blank\">legend</a> 的图例筛选，在 <code class=\"codespan\">setOption</code> 更新数据和配置项时用于指定对应的系列。</p>\n"
   },
   "coordinateSystem": {
     "desc": "<p>该系列使用的坐标系，可选：</p>\n<ul>\n<li><p><code class=\"codespan\">&#39;geo3D&#39;</code></p>\n<p>  使用三维地理坐标系，通过 <a href=\"#series-.geo3DIndex\">geo3DIndex</a> 指定相应的三维地理坐标系组件</p>\n</li>\n</ul>\n<ul>\n<li><p><code class=\"codespan\">&#39;globe&#39;</code></p>\n<p>  使用地球坐标系，通过 <a href=\"#series-.globeIndex\">globeIndex</a> 指定相应的地球坐标系组件</p>\n</li>\n</ul>\n"

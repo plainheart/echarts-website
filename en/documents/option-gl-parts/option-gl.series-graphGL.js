@@ -1,6 +1,6 @@
 window.__EC_DOC_option_gl_series_graphGL = {
   "name": {
-    "desc": "<p>Series name used for displaying in <a href=\"https://echarts.apache.org/zh/option.html#tooltip\" target=\"_blank\">tooltip</a> and filtering with <a href=\"https://echarts.apache.org/zh/option.html#legend\" target=\"_blank\">legend</a>, or updating data and configuration with <code class=\"codespan\">setOption</code>.</p>\n"
+    "desc": "<p>Series name used for displaying in <a href=\"/echarts-website/zh/option.html#tooltip\" target=\"_blank\">tooltip</a> and filtering with <a href=\"/echarts-website/zh/option.html#legend\" target=\"_blank\">legend</a>, or updating data and configuration with <code class=\"codespan\">setOption</code>.</p>\n"
   },
   "layout": {
     "desc": "<p>The continuous graph layout algorithm supports the <a href=\"https://github.com/gephi/gephi/wiki/Force-Atlas-2\" target=\"_blank\">forceAtlas2</a> algorithm layout using gephi.</p>\n"

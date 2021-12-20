@@ -960,7 +960,7 @@ window.__EC_DOC_option_timeline = {
     }
   },
   "checkpointStyle.animationEasing": {
-    "desc": "<p>The easing effect of animation of <code class=\"codespan\">checkpoint</code> in <code class=\"codespan\">timeline</code> component. Refers to <a href=\"https://echarts.apache.org/examples/zh/view.html?c=line-easing\" target=\"_blank\">easing sample</a> for different easing effects.</p>\n",
+    "desc": "<p>The easing effect of animation of <code class=\"codespan\">checkpoint</code> in <code class=\"codespan\">timeline</code> component. Refers to <a href=\"/echarts-website/examples/zh/view.html?c=line-easing\" target=\"_blank\">easing sample</a> for different easing effects.</p>\n",
     "uiControl": {
       "type": "enum",
       "default": "quinticInOut",

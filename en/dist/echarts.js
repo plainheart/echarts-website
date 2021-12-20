@@ -74706,7 +74706,7 @@ SeriesModel.extend({
 
         // Custom series will not clip by default.
         // Some case will use custom series to draw label
-        // For example https://echarts.apache.org/examples/en/editor.html?c=custom-gantt-flight
+        // For example /echarts-website/examples/en/editor.html?c=custom-gantt-flight
         // Only works on polar and cartesian2d coordinate system.
         clip: false
 
