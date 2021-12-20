@@ -17,8 +17,8 @@ var RAW_DATA_DIMENSIONS = ['DATE', 'COUNT', 'PRICE', 'WEIGHT', 'M_TAG', 'Z_TAG',
 
 
 $.when(
-    $.getScript('https://cdn.jsdelivr.net/npm/echarts-stat@1.2.0/dist/ecStat.min.js'),
-    $.getScript('https://cdn.jsdelivr.net/npm/echarts-simple-transform@1.0.0/dist/ecSimpleTransform.min.js')
+    $.getScript('https://unpkg.com/echarts-stat@1.2.0/dist/ecStat.min.js'),
+    $.getScript('https://unpkg.com/echarts-simple-transform@1.0.0/dist/ecSimpleTransform.min.js')
 ).done(function () {
 
     init();

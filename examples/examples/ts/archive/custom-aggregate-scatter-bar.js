@@ -25,7 +25,7 @@ var RAW_DATA = [[1425139200000,34,0.13,2,"MD","ZD","P0"],[1425225600000,28,0.71,
 
 
 $.when(
-    $.getScript('https://cdn.jsdelivr.net/npm/echarts-simple-transform@1.0.0/dist/ecSimpleTransform.min.js')
+    $.getScript('https://unpkg.com/echarts-simple-transform@1.0.0/dist/ecSimpleTransform.min.js')
 ).done(function () {
 
     init();
